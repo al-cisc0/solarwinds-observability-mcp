@@ -18,7 +18,7 @@ Install the MCP server globally using npm:
 
 ```bash
 # Install globally from npm
-npm install -g solarwinds-observability-mcp
+npm install -g @cisc0/solarwinds-observability-mcp
 
 # Or install from source
 git clone https://github.com/al-cisc0/solarwinds-observability-mcp.git

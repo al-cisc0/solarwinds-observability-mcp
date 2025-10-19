@@ -49,10 +49,10 @@ After publishing, verify the package is available:
 
 ```bash
 # Check npm registry
-npm view solarwinds-observability-mcp
+npm view @cisc0/solarwinds-observability-mcp
 
 # Test global installation
-npm install -g solarwinds-observability-mcp
+npm install -g @cisc0/solarwinds-observability-mcp
 solarwinds-mcp --version
 ```
 
@@ -60,7 +60,7 @@ solarwinds-mcp --version
 
 If you need to unpublish within 72 hours:
 ```bash
-npm unpublish solarwinds-observability-mcp@<version>
+npm unpublish @cisc0/solarwinds-observability-mcp@<version>
 ```
 
 Note: npm's unpublish policy is strict. You can only unpublish within 72 hours if no other packages depend on it.
@@ -69,10 +69,10 @@ Note: npm's unpublish policy is strict. You can only unpublish within 72 hours i
 
 To add collaborators:
 ```bash
-npm owner add <username> solarwinds-observability-mcp
+npm owner add <username> @cisc0/solarwinds-observability-mcp
 ```
 
 To check current owners:
 ```bash
-npm owner ls solarwinds-observability-mcp
+npm owner ls @cisc0/solarwinds-observability-mcp
 ```

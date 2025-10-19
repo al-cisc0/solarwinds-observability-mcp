@@ -119,8 +119,8 @@ To remove the test installation:
 
 ```bash
 # Remove global link
-npm unlink -g solarwinds-observability-mcp
+npm unlink -g @cisc0/solarwinds-observability-mcp
 
 # Or if installed with npm install -g
-npm uninstall -g solarwinds-observability-mcp
+npm uninstall -g @cisc0/solarwinds-observability-mcp
 ```

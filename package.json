@@ -1,5 +1,5 @@
 {
-  "name": "solarwinds-observability-mcp",
+  "name": "@cisc0/solarwinds-observability-mcp",
   "version": "0.1.0",
   "description": "MCP server for SolarWinds Observability platform integration",
   "main": "dist/index.js",
